@@ -59,7 +59,11 @@ Es una forma de descartar cambios locales en el archivo y volver a la versión c
 En conclusión, la secuencia de comandos primero muestra el contenido modificado del archivo readme.txt, luego lo restaura al estado del 
 último commit, y finalmente muestra el contenido del archivo restaurado.
 
+--- Fusionar las ramas ---
 
+Para ello necesitamos ubicarnos en la rama que raìz o donde necesitamos los cambios. 
+
+* git merge update-readme
 
 
 
