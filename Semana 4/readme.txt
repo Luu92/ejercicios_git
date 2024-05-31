@@ -99,6 +99,11 @@ podemos eliminar una rama utilizando la bandera -d con git branch y el nombre de
 
 * git checkout -b update-readme
 
+--- Mezclar dos ramas --- 
+Nota: Importante debemos de estar en la rama raìz y no tener cambios sin guardar o sin hacer commit`s
+
+* git merge "rama-de-cambios"
+
 
 
 
