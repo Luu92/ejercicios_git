@@ -65,5 +65,40 @@ Para ello necesitamos ubicarnos en la rama que raìz o donde necesitamos los cam
 
 * git merge update-readme
 
+--- RAMIFICACIÓN DE GIT --- 
+
+(Déspues de hacer commit.)
+
+git branch
+## * master
+
+La estrella (*) indica en qué rama se encuentra actualmente. La rama que se crea por defecto siempre se llama master. Normalmente la gente utiliza esta rama como la versión de trabajo del software que están escribiendo, mientras desarrollan características nuevas y potencialmente inestables en otras ramas.
+
+Para añadir una rama también utilizaremos el comando git branch, seguido del nombre de la rama que queremos crear:
+
+git branch my-new-feature
+
+
+--- cambiar de rama --- 
+
+git checkout "nombre-nueva-rama"
+
+git branch
+
+##   master
+## * my-new-feature
+
+
+--- eliminar rama ---
+
+podemos eliminar una rama utilizando la bandera -d con git branch y el nombre de la rama que queremos eliminar:
+
+* git branch -d "nombre-rama"
+
+--- Crear rama y movernos ---
+
+* git checkout -b update-readme
+
+
 
 
