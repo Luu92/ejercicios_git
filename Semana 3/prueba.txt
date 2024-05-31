@@ -1,0 +1,16 @@
+ng version
+ng
+ng version
+ng serve -o
+Esto es una linea de texto
+:wq
+
+:i
+i
+q
+:q
+
+
+
+:wq
+ng serve -o

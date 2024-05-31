@@ -1,0 +1,31 @@
+Carácter           Significado
+
+u                  El propietario del fichero
+
+g                  El grupo al que pertenece el fichero
+
+o                  Todos los demás
+
+a                  Todos los demás
+
+
+A continuación, debemos especificar si vamos a añadir, eliminar o establecer el permiso:
+
+Carácter            Significado
+
++                   Añadir permiso
+
+-                   Quitar permiso
+
+=                   Establecer permiso
+
+
+Finalmente especificamos qué permiso estamos cambiando:
+
+Carácter            Significado
+
+r                   Leer un archivo
+
+w                   Escribir o editar un fichero
+
+x                   Ejecutar un archivo
